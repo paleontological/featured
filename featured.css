@@ -1,16 +1,19 @@
 #featured {
   background: #F4A046 linear-gradient(90deg, #F4A046, #822833);
 }
+
 #featured .Index-page-content {
   padding-top: 20px;
   padding-bottom: 0px;
 }
+
 #featured .image-title-wrapper a {
   line-height: 1em;
   color: white;
   font-weight: 700;
 }
-#featured h2 {
+
+#featured-content h2 {
   color: white;
   line-height: 0.9em;
   white-space: nowrap;
@@ -18,11 +21,13 @@
   position: relative;
   top: 10px;
 }
-#featured a:not(.sqs-block-button-element) {
+
+#featured-content a:not(.sqs-block-button-element) {
   border-bottom-style: none;
 }
+
 #featured .image-subtitle a,
 #featured .image-subtitle p {
   font-weight: 500;
-  color:  white;
+  color: white;
 }

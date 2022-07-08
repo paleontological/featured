@@ -1,9 +1,5 @@
-/*#featured .Index-page-content {
-  padding-top: 20px;
-  padding-bottom: 0px;
-}*/
-
 #featured-content h3 a {
+  border-bottom-style: none;
   line-height: 1em;
   color: white;
   font-weight: 700;
@@ -18,12 +14,9 @@
   top: 10px;
 }
 
-#featured-content a:not(.sqs-block-button-element) {
-  border-bottom-style: none;
-}
-
 #featured-content a,
 #featured-content p {
+  border-bottom-style: none;
   font-weight: 500;
   color: white;
 }

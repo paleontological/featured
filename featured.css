@@ -1,11 +1,7 @@
-#featured {
-  background: #F4A046 linear-gradient(90deg, #F4A046, #822833);
-}
-
-#featured .Index-page-content {
+/*#featured .Index-page-content {
   padding-top: 20px;
   padding-bottom: 0px;
-}
+}*/
 
 #featured-content h3 a {
   line-height: 1em;

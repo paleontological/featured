@@ -26,8 +26,8 @@
   border-bottom-style: none;
 }
 
-#featured .image-subtitle a,
-#featured .image-subtitle p {
+#featured-content a,
+#featured-content p {
   font-weight: 500;
   color: white;
 }

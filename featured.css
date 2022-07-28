@@ -38,13 +38,13 @@
   color: white;
 }
 
-#featured-content .sections {
-  column-count: 4;
-}
-
 .featured-thumbnail img {
   width: 20%;
   height: auto;
+}
+
+#featured-content .sections {
+  column-count: 4;
 }
 
 /* add column collapse for mobile
@@ -54,7 +54,7 @@
         heavier h3 weight
         less h2 padding*/
 @media screen and (max-width: 800px) {
-  #featured-content {
+  #featured-content .sections {
     column-count: 1!important;
   }
 }

@@ -20,3 +20,8 @@
   font-weight: 500;
   color: white;
 }
+
+.featured-thumbnail img {
+  width: 20%;
+  height: auto;
+}

@@ -12,7 +12,7 @@
 #featured-content h3 {
   color: white;
   line-height: 1em;
-  font-size: 1.25em;
+  font-size: 2em;
   font-weight: 700;
 }
 
@@ -53,10 +53,8 @@
 }
 
 /*
-        add spacing between li
         li orient left
         lighter p weight
-        
         less h2 padding*/
 @media screen and (min-width: 800px) {
   #featured-content .sections {

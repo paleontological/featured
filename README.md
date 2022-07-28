@@ -4,7 +4,7 @@ files for What's New? section
 ## how to update
 ### 1. create new thumbnail images
   * images should be 16:9 aspect ratio
-  * max 1000px wide to save on file size
+  * max 1000px wide and webp format to save on file size
   * run through [tinyPNG](https://tinypng.com/) compression tool
   * use the same file names and overwrite old images (this way you don't have to update the image URLs in the HTML)
 

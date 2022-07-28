@@ -43,6 +43,10 @@
   height: auto;
 }
 
+.featured-section {
+  padding-bottom: 1em;
+}
+
 /* add column collapse for mobile
         add spacing between li
         li orient left

@@ -1,3 +1,20 @@
+#featured {
+  background: #F4A046 linear-gradient(90deg, #F4A046, #822833);
+}
+
+#featured-content {
+  background: #F4A046 linear-gradient(90deg, #F4A046, #822833);
+  color: white;
+  padding-top: 20px;
+  padding-bottom: 0px;
+}
+
+#featured-content h3 {
+  color: white;
+  line-height: 1em;
+  font-weight: 700;
+}
+
 #featured-content h3 a {
   border-bottom-style: none;
   line-height: 1em;
@@ -21,7 +38,23 @@
   color: white;
 }
 
+#featured-content .sections {
+  column-count: 4;
+}
+
 .featured-thumbnail img {
   width: 20%;
   height: auto;
+}
+
+/* add column collapse for mobile
+        add spacing between li
+        li orient left
+        lighter p weight
+        heavier h3 weight
+        less h2 padding*/
+@media screen and (max-width: 800px) {
+  #featured-content {
+    /*stuff*/
+  }
 }

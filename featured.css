@@ -55,6 +55,6 @@
         less h2 padding*/
 @media screen and (max-width: 800px) {
   #featured-content {
-    /*stuff*/
+    column-count: 1;
   }
 }

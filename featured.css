@@ -12,6 +12,7 @@
 #featured-content h3 {
   color: white;
   line-height: 1em;
+  font-size: 1.25em;
   font-weight: 700;
 }
 
@@ -47,11 +48,15 @@
   padding-bottom: 2em;
 }
 
-/* add column collapse for mobile
+#featured-content li {
+  padding-bottom: 0.5em;
+}
+
+/*
         add spacing between li
         li orient left
         lighter p weight
-        heavier h3 weight
+        
         less h2 padding*/
 @media screen and (min-width: 800px) {
   #featured-content .sections {

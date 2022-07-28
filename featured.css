@@ -43,18 +43,14 @@
   height: auto;
 }
 
-#featured-content .sections {
-  column-count: 4;
-}
-
 /* add column collapse for mobile
         add spacing between li
         li orient left
         lighter p weight
         heavier h3 weight
         less h2 padding*/
-@media screen and (max-width: 800px) {
+@media screen and (min-width: 800px) {
   #featured-content .sections {
-    column-count: 1!important;
+    column-count: 4;
   }
 }

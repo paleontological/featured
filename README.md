@@ -16,3 +16,11 @@ files for What's New? sections on [PRI](https://www.priweb.org), [CNC](https://w
 
 ### 3. that's all! 😎
   * pat yourself on the back for a job well done (also, probably refresh the PRI home page one more time to make sure your changes work correctly!)
+  
+## how to add to a page
+add the following code to a page. this is intended to be used on a squarespace index page in one of the sections, but can be adapted to use elsewhere as well.
+```html
+<div id="featured-content">	
+</div>
+<script src="https://paleontological.github.io/featured/featured.js" integrity="sha512-aC7jd2p39ug8GKd3DjJ+pYSZAgjvYi4Nw0K90KDaI49HvPZsYzEI/jFgB4wyHudYWXpG75GawpfCbNQ7kCwxLQ==" crossorigin="anonymous"></script>
+```

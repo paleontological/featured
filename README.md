@@ -1,7 +1,8 @@
 # featured
 files for What's New? sections on [PRI](https://www.priweb.org), [CNC](https://www.cayuganaturecenter.org) and [MOTE](https://www.museumoftheearth.org).
 
-⚠️ any changes here will auto-populate to all three sites, so make sure you're all set before you push any updates! ⚠️
+> **Warning**
+> any changes here will auto-populate to all three sites, so make sure you're all set before you push any updates!
 
 ## how to update
 ### 1. create new thumbnail images 🖼️

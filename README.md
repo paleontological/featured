@@ -1,26 +1,34 @@
-# featured
-files for What's New? sections on [PRI](https://www.priweb.org), [CNC](https://www.cayuganaturecenter.org) and [MOTE](https://www.museumoftheearth.org).
+# Featured
 
-> **Warning** - any changes here will auto-populate to all three sites, so make sure you're all set before you push any updates!
+Files for the "What's New?" sections on [PRI](https://priweb.org), [CNC](https://cayuganaturecenter.org) and [MOTE](https://museumoftheearth.org).
 
-## how to update
-### 1. create new thumbnail images 🖼️
-  * images should be 16:9 aspect ratio
-  * max 1000px wide and [webp format](https://developers.google.com/speed/webp/) to save on file size
-  * run through [tinyPNG](https://tinypng.com/) compression tool
-  * use the same file names and overwrite old images (this way you don't have to update the image URLs in the HTML)
+> [!WARNING]
+> Any changes made here will auto-populate to all three sites, so make sure you're all set before you push any updates!
 
-### 2. update link text and URLs 📝
-  * in featured.html, link text and URLs for each section are indicated by `<!--UPDATE LINK URLS & TEXT HERE-->`
-  * the first URL should also be updated on each section's thumbnail, indicated by `<!--UPDATE IMAGE LINK HERE-->`
+## How to Update
 
-### 3. that's all! 😎
-  * pat yourself on the back for a job well done (also, probably refresh the PRI home page one more time to make sure your changes work correctly!)
-  
-## how to add to a page
-add the following code to a page. this is intended to be used on a squarespace index page in one of the sections, but can be adapted to use elsewhere as well.
-```html
-<div id="featured-content">	
-</div>
-<script src="https://paleontological.github.io/featured/featured.js" integrity="sha512-aC7jd2p39ug8GKd3DjJ+pYSZAgjvYi4Nw0K90KDaI49HvPZsYzEI/jFgB4wyHudYWXpG75GawpfCbNQ7kCwxLQ==" crossorigin="anonymous"></script>
-```
+The Events and Videos sections should automatically update by pulling from [Tockify](https://tockify.com/paleontological) and [YouTube](https://youtube.com/c/PaleontologicalResearchInstitution) respectively. That leaves the Blogs and More sections, which have to be updated manually.
+
+### 1. Add New `<li>` 📝
+
+Each section has an HTML file that feeds into the main [featured.html](featured.html) code on page load.
+
+The structure of [blogs.html](blogs.html) or [more.html](more.html) is three `<li>` elements (indicated by `<!-- notes -->`). Typically, the easiest way to update is to cut and paste the `<li>` section from the bottom of the list to the top.
+
+### 2. Update Link URL 🔗
+
+The new `<li>` has two `<a>` tags that need to be updated with the URL pointing to the new blog post or "more" item. Paste the URL into the both `href=` spots.
+
+Next, update the text for the title and date or external site name.
+
+### 3. Update Image URL 🖼️
+
+The new `<li>` also has one `img src=` that should be updated with the URL for the thumbnail image. This will scale, so no need to edit the image, but smaller images (~300px wide) are generally better.
+
+### 4. That's All! 😎
+
+Pat yourself on the back for a job well done (also, probably refresh the PRI home page one more time to make sure your changes work correctly!).
+
+## How to Add to a Page
+
+Add the content of [featured.html](featured.html) to a code block if you're using Squarespace or other similar web builder. Otherwise, you can pull what you need out of the code and repurpose it.
